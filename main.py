@@ -10,6 +10,8 @@ CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
 REDIRECT_URI = os.environ.get("REDIRECT_URI")
 SCOPE = "playlist-modify-public"
 
+ALBUM_NAME = "27th:04"
+
 sp = None
 
 
@@ -28,7 +30,7 @@ def create_playlist():
     global sp
     try:
         user_id = sp.me()["id"]
-        sp.user_playlist_create(user_id, "27th:04", public=True)  # SUCCESFULLY ADDED
+        sp.user_playlist_create(user_id, ALBUM_NAME, public=True)  # SUCCESFULLY ADDED
     except spotipy.SpotifyException as e:
         print(f"Spotify API error: {e}")
     except Exception as e:
