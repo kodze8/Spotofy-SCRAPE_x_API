@@ -1,7 +1,8 @@
 # Project Title: Spotify Top 100 Playlist Generator
 
 ## Overview:
-- This project aims to create a Spotify playlist consisting of the top 100 songs from a specific date. It utilizes the real Spotify API for authentication and playlist management. Additionally, it employs Beautiful Soup for web scraping to extract song data from the Billboard website.
+- This project aims to create a Spotify playlist consisting of the top 100 songs from a specific date. It utilizes the real Spotify API for authentication and playlist management. Additionally, it employs Beautiful Soup for web scraping to extract song data from the Billboard website:
+- https://www.billboard.com/charts/hot-100
 
 ## Technologies Used:
 - Python
