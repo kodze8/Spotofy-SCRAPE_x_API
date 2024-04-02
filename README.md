@@ -5,9 +5,8 @@
 - https://www.billboard.com/charts/hot-100
 
 ## Technologies Used:
-- Python
 - Spotipy (Python library for Spotify API)
-- BeautifulSoup (Python library for web scraping)
+- BeautifulSoup 
 
 ## Key Features:
 1. Authentication: Utilizes Spotify OAuth for secure authentication.
